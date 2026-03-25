@@ -1,0 +1,97 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  margin: 0;
+}
+
+.pricing {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+h1 {
+  font-size: 42px;
+  color: #555;
+}
+
+.subtitle {
+  color: #777;
+  margin-bottom: 30px;
+}
+
+/* TABLA */
+.pricing-table {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+  border-collapse: collapse;
+  background: white;
+}
+
+th, td {
+  padding: 15px;
+  border: 1px solid #eee;
+  text-align: center;
+  color: #555;
+}
+
+/* Encabezados */
+th {
+  color: white;
+  font-weight: bold;
+}
+
+th.features {
+  background: #ddd;
+  color: #444;
+}
+
+th.empresa {
+  background: #5a6169;
+}
+
+th.avance {
+  background: #e14b61;
+}
+
+th.entrante {
+  background: #6cc36c;
+}
+
+/* Primera columna alineada a la izquierda */
+td:first-child {
+  text-align: left;
+}
+
+/* Precios */
+.price {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.red {
+  color: #e14b61;
+}
+
+.green {
+  color: #6cc36c;
+}
+
+/* Botones */
+button {
+  padding: 8px 18px;
+  border: 1px solid #aaa;
+  background: transparent;
+  cursor: pointer;
+}
+
+button.active {
+  background: #e14b61;
+  color: white;
+  border: none;
+}
+
+/* Fila botones */
+.buttons td {
+  padding: 20px;
+}
